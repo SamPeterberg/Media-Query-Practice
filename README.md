@@ -1,3 +1,4 @@
+###https://sampeterberg.github.io/Media-Query-Practice/
 # Media Query Practice
 
 This repository contains a practice project for learning and implementing media queries using `div` elements. Media queries are a key component of responsive web design, allowing the layout of web pages to adapt to different screen sizes and resolutions.
