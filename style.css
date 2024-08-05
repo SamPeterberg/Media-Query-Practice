@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+}
+.cont1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 17px;
+}
+#ch1{
+    flex-grow: 1;
+}
+#ch2{
+    flex-grow: 1;
+}
+.cont1 div{
+    background-color: rgb(247, 188, 78);
+    height: 60px;
+    width: 20px;
+}
+.sec_div{
+    height: 230px;
+    margin-top: 20px;
+    background-color: rgb(219, 249, 158);
+}
+.cont2{
+    margin-top: 20px;
+    display: flex;
+    gap: 17px;
+}
+.child{
+    background-color: blue;
+    height: 150px;
+    flex-grow: 1;
+}
+.cont3{
+    margin-top: 20px;
+    display: flex;
+    gap: 17px;
+}
+#pr1{
+    flex-grow: 1;
+    display: flex;
+}
+#pr2{
+    flex-grow: 1; 
+    display: flex;  
+}
+.ch{
+    background-color: lightgray;
+    height: 70px;
+    flex-grow:1;
+    margin-left: 20px;
+}
+#chh{
+    margin-left: 0px;
+}
+/* media query for medium started here */
+
+@media screen and (max-width: 786px) {
+    #text{
+        width: fit-content;
+    }
+    .cont1{
+        flex-direction: column;
+    }
+    .cont1 div{
+        margin-top: -9px;
+        width: 100%;
+        height:40px ;
+    }
+    .sec_div{
+        height: 100px;
+        margin-top: 20px;
+        background-color: rgb(219, 249, 158);
+    }
+    .cont2{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .child{
+        height: 50px;
+    }
+    .cont3{
+        flex-direction: column;
+    }
+    .ch{
+        height: 30px;
+    }
+    #chhh{
+        margin-left: 0px;
+    }
+}
+
+/* media query for small screens */
+
+@media screen and (max-width:320px){
+    .sec_div{
+        height: 40px;
+        margin-top: 20px;
+        background-color: rgb(219, 249, 158);
+    }
+    .child{
+        background-color: blue;
+        height: 90px;
+
+    }
+    #pr1{
+        flex-direction: column;
+    }
+    #pd{
+    margin-left: 0px;
+    margin-top: 20px;
+    }
+    #pr2{
+        flex-direction: column;
+    }
+    #pdd{
+    margin-left: 0px;
+    margin-top: 20px;
+    }
+    
+}
